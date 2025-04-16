@@ -30,6 +30,7 @@ from tools.project import (
 DEFAULT_VERSION = 0
 VERSIONS = [
     "RMGK01",  # 0
+    "RMGK02"
 ]
 
 parser = argparse.ArgumentParser()
@@ -214,7 +215,6 @@ cflags_game = [
     "-maxerrors 1",
     "-nosyspath",
     "-RTTI off",
-    "-fp_contract on",
     "-str reuse",
     "-enc SJIS",
     "-sdata 4",

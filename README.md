@@ -10,13 +10,14 @@ Petari
 [Discord Badge]: https://img.shields.io/discord/727908905392275526?color=%237289DA&logo=discord&logoColor=%23FFFFFF
 [discord]: https://discord.gg/ZxEqyYeZbf
 
-A work-in-progress decompilation of Some Game.
+A work-in-progress decompilation of Super Mario Galaxy 1.
 
 This repository does **not** contain any game assets or assembly whatsoever. An existing copy of the game is required.
 
 Supported versions:
 
 - `RMGK01`: Rev 0 (Korea)
+- `RMGK02`: Rev 1 (Korea)
 
 Dependencies
 ============
