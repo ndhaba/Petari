@@ -27,6 +27,7 @@ namespace MR {
 
     void initShadowVolumeSphere(LiveActor *, f32);
     void onCalcShadowOneTime(LiveActor *, const char *);
+    void onCalcShadowOneTimeAll(LiveActor *);
 
     void onShadowVisibleSyncHostAll(LiveActor *);
     void offShadowVisibleSyncHostAll(LiveActor *);

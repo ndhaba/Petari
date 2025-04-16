@@ -141,7 +141,7 @@ namespace JGeometry {
         TVec3& operator-(const TVec3 &op) const;
 
         template <typename T>
-        void set(const TVec3<f32>& rVec) {
+        void set(const TVec3<f32>& rVec) NO_INLINE {
             x = rVec.x;
             y = rVec.y;
             z = rVec.z;

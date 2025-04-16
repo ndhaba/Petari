@@ -163,6 +163,8 @@ namespace MR {
     inline f32 normalizeAngle(f32 a, f32 b) {
         return a + fmod(360.0 + b, 360.0);
     }
+
+    void makeQuatRotateDegree(JGeometry::TQuat4<f32>*, const JGeometry::TVec3<f32>&);
 };
 
 f32 PSVECKillElement(const Vec *, const Vec *, const Vec *);

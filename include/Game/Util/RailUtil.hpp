@@ -80,4 +80,6 @@ namespace MR {
     const TVec3f& getRailPointPosEnd(const LiveActor *);
     void calcRailEndPointPos(TVec3f *, const LiveActor *);
     void calcNearestRailPos(TVec3f *, const LiveActor *, const TVec3f &);
+
+    void adjustmentRailCoordSpeed(LiveActor*, f32, f32);
 };
